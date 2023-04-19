@@ -56,8 +56,8 @@ select distinct(soldasvacant) from nashville_housing_data
 
 select soldasvacant, case when soldasvacant = 'Y' then 'Yes'
                           when soldasvacant = 'N' then 'No'
-				          else soldasvacant
-						  end
+		          else soldasvacant
+			  end
 from nashville_housing_data
 
 select distinct(soldasvacant), count(soldasvacant) 
@@ -67,8 +67,8 @@ order by 2
 
 update nashville_housing_data set soldasvacant = case when soldasvacant = 'Y' then 'Yes'
                                                       when soldasvacant = 'N' then 'No'
-				                                      else soldasvacant
-						                              end
+				                      else soldasvacant
+						      end
 
 --Deleting Duplicates
 select * from nashville_housing_data
