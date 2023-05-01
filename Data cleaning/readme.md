@@ -12,7 +12,8 @@ Data cleaning in SQL typically involves the following steps:
 
 **Checking for data integrity**: Data integrity is crucial for accurate analysis, and it's important to check for data inconsistencies and errors in data entry.
 
-SQL provides several built-in functions and operators that can be used to perform data cleaning tasks. For example, the DISTINCT keyword can be used to remove duplicates, and the IS NULL operator can be used to identify missing values. Data cleaning in SQL can be performed using various SQL statements, including SELECT, UPDATE, DELETE, and JOIN, depending on the specific cleaning tasks required.
+Data cleaning in SQL can be performed using various SQL statements, including SELECT, UPDATE, DELETE, and JOIN, depending on the specific cleaning tasks required.
+DISTINCT keyword can be used to remove duplicates, and the IS NULL operator can be used to identify missing values.
 
 
 
